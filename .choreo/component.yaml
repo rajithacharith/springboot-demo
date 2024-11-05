@@ -1,10 +1,10 @@
 # +required Version of the endpoint configuration YAML
-schemaVersion: 0.1
+schemaVersion: 1.0
 
 # +required List of endpoints to create
 endpoints:
   # +required Unique name for the endpoint. (This name will be used when generating the managed API)
-- name: Product Catalog
+- name: test
   # +required Numeric port value that gets exposed via this endpoint
   service:
     port: 8080
